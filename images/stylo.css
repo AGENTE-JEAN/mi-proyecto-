@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&family=Rubik:ital,wght@0,400;1,300;1,500&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: 'Epilogue', sans-serif;}
+.img_logo{
+    float: left;
+    margin: 20px 40px;
+    width: 80px;
+    height: 25px;
+}
+.list{
+    width: 90%;
+    display: flex;
+    }
+.list__item{
+    padding:20px  ;
+    list-style: none;   
+    text-transform: capitalize;
+    
+}
+.list__item a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    margin-top: 30px;
+}
+.list__inside{
+     margin-top: 10px;
+}
+.list__item a:hover{
+    color: black;
+}
+.list_show a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    padding: 22px 8px;
+}
+.list_show ,.list__show {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -50px;
+    box-shadow: 4px 10px 21px 1px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    overflow: hidden;
+    position: absolute;
+    transition: transform .3s ;
+    display: none; 
+    
+}
+
+.showw {
+   
+    transition: all 600ms;
+    display: block;
+  }
+.arrow2 .arrow{
+    transform: rotate(180deg);
+    transition: transform .2s ;
+}
+.arrow2 .arrow1{
+    transform: rotate(180deg);
+    transition: transform .2s ;
+}
+
+
+
+.show{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -0px;
+    box-shadow: 4px 10px 21px 1px rgba(0, 0, 0, 0.2);
+}
+.login_link{
+    text-decoration: none;
+    float: right;
+    margin-top: -40px;
+    margin-right: 150px;
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+}
+.btn_register{
+    float: right;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border: solid 2px;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-right: 30px;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 700;
+}
